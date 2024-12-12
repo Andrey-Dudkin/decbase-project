@@ -33,24 +33,24 @@
         background-color: #caa892;
     }
 }
-.sevices-card__icon{
+.services-card__icon{
     align-self: baseline;
 }
 .services-card__text{
-    .ervices-card__title{
+    .services-card__title{
         font-weight: 700;
         font-size: 24px;
         color: var(--title-color);
         margin-bottom: 25px;
-        &.services-card--color-white{
+        &.services-card__title--color-white{
             color: var(--second-color);
         }
     }
-    .ervices-card__description{
+    .services-card__description{
         font-size: 18px;
         line-height: 156%;
         letter-spacing: -0.01em;
-        &.services-card--color-white{
+        &.services-card__description--color-white{
             color: var(--second-color);
         }
     }
@@ -361,9 +361,11 @@
 .forma{
     position: relative;
     width: clamp(672px, 50vw, 772px);
+    min-height: 50px;
     display: flex;
     align-items: center;
-    height: 50px;
+    flex-direction: column;
+    row-gap: 15px;
     .forma__input{
         font-family: var(--three-family);
         font-weight: 500;
@@ -399,11 +401,4 @@
             opacity: 0.9;
         }
     }
-}
-.just-validate-error-label{
-    font-size: 18px;
-    position: absolute;
-    top: 110%;
-    left: 50%;
-    transform: translateX(-50%);
 }

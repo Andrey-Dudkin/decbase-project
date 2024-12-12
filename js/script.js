@@ -1,9 +1,9 @@
 // *Burger menu
-const burgerBtn = document.querySelector(".burger_menu_btn");
-const burgerIcon = document.querySelector(".burger_menu_icon");
+const burgerBtn = document.querySelector(".burger-menu__btn");
+const burgerIcon = document.querySelector(".burger-menu__icon");
 const menuList = document.querySelector(".navbar__menu-list")
 burgerBtn.addEventListener("click", function(){
-	burgerIcon.classList.toggle("burger_menu_icon_active");
+	burgerIcon.classList.toggle("burger-menu__icon__active");
 	menuList.classList.toggle("open_menu");
 });
 

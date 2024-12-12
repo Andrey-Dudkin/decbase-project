@@ -1,6 +1,7 @@
 let validation = new JustValidate("#forma",{
     errorLabelStyle: {
         color: "var(--error-color)",
+        fontSize: "18px",
     }
 });
 validation.addField("#forma__input-email",[

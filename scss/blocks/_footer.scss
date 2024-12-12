@@ -18,7 +18,7 @@
 .footer__company-description{
     max-width: 350px;
 }
-.company__text{
+.footer__company-text{
     font-size: 18px;
     line-height: 156%;
     padding-top: 15px;
@@ -83,9 +83,9 @@
     border-top: 1px solid var(--main-color);
     padding-top: 15px;
     padding-bottom: 22px;
-    .pcopywriting__text{
+    .copywriting__text{
         text-align: center;
-        &--green{
+        &.copywriting__text--green{
             color: var(--accent-color);
         }
     }
